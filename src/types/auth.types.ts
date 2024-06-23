@@ -1,6 +1,6 @@
 export interface IAuthForm {
 	email: string
-	passwrod: string
+	password: string
 }
 
 export interface IUser {
