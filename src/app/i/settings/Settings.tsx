@@ -93,7 +93,7 @@ export default function Settings() {
 							label='Intervals count (max 10): '
 							placeholder='Enter intervals count (max 10): '
 							isNumber
-							{...register('intervalCount', {
+							{...register('intervalsCount', {
 								valueAsNumber: true
 							})}
 							extra='mb-6'

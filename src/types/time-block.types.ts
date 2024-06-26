@@ -1,10 +1,10 @@
-import { IBase } from './root.types'
+import type { IBase } from './root.types'
 
 export interface ITimeBlockResponse extends IBase {
 	name: string
 	color?: string
 	duration: number
-	oreder: number
+	order: number
 }
 
 export type TypeTimeBlockFormState = Partial<
